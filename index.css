@@ -1,0 +1,65 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+/* Utility classes */
+
+.text-teal-900 {
+  color: hsl(153 68% 17%);
+}
+
+.bg-teal-500 {
+  background: hsl(153 45% 57%);
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.hover\:opacity-5:hover {
+  opacity: 0.5;
+}
+
+.focus\:bg-blue-100:focus {
+  background: hsl(200 45% 70%);
+}
+
+/* Semantic classes */
+
+.text-blue-500 {
+  color: hsl(200 45% 50%);
+}
+
+.text-green-500 {
+  color: hsl(100 45% 50%);
+}
+
+.text-red-500 {
+  color: hsl(5 45% 50%);
+  font-weight: bold;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.text-xl {
+  font-size: 3rem;
+}
+
+.font-primary {
+  font-family: "Philosopher", sans-serif;
+}
