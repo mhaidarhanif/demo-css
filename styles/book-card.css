@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -51,8 +55,8 @@ p {
   width: 400px;
 }
 
-.w-360 {
-  width: 360px;
+.w-420 {
+  width: 420px;
 }
 
 .h-150 {
@@ -67,12 +71,24 @@ p {
   border: 1px solid black;
 }
 
-.max-w-200 {
-  max-width: 200px;
+.max-w-300 {
+  max-width: 300px;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.m-1 {
+  margin: 0.5rem;
 }
 
 .p-1 {
   padding: 1rem;
+}
+
+.py-1 {
+  padding: 0.5rem 0;
 }
 
 .object-contain {
@@ -95,6 +111,10 @@ p {
   position: relative;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .top-1 {
   top: -50px;
 }
@@ -108,12 +128,62 @@ p {
   width: 25px;
 }
 
+.rounded-1 {
+  border-radius: 2px;
+}
+
 .rounded-full {
   border-radius: 100%;
 }
 
-/* Semantic Classes */
+.text-sm {
+  font-size: 0.75rem;
+}
 
-.book-card {
+.text-md {
+  font-size: 0.9rem;
+}
+
+.text-lg {
+  font-size: 1.25rem;
+}
+
+.color-yellow-500 {
+  color: hsl(30, 100%, 60%);
+}
+
+.color-gray-500 {
+  color: hsl(0, 0%, 70%);
+}
+
+.color-gray-700 {
   color: hsl(0 0% 50%);
 }
+
+.cursor-default {
+  cursor: default;
+}
+
+.b-gray-50 {
+  border: 0.1px solid hsl(0 0% 95%);
+}
+
+.shadow-sm {
+  box-shadow: hsla(0, 0%, 0%, 0.2) 0px 3px 8px;
+}
+
+.shadow-md {
+  box-shadow: hsla(0, 0%, 0%, 0.1) 0px 1px 3px 0px,
+    hsla(0, 0%, 0%, 0.1) 0px 1px 2px 0px;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+/* Semantic Classes */

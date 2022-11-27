@@ -5,33 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS Book Card</title>
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/book-card.css" />
   </head>
   <body>
-    <main class="flex gap-1 p-1">
-      <div class="p-1">
+    <main class="flex gap-1">
+      <section class="p-1">
         <h1>Example</h1>
         <img class="w-400" src="/assets/example.png" alt="Book Card Example" />
-      </div>
+      </section>
 
-      <div class="bg-gray p-1 w-full">
+      <section class="bg-gray p-1 w-full">
         <h1>Result</h1>
-        <div class="w-360 bg-white p-1 flex flex-col gap-2 mt-12">
+        <div
+          class="card w-420 bg-white p-1 flex flex-col gap-2 mt-12 color-gray-700 shadow-md relative rounded-1"
+        >
           <div class="flex gap-2 h-150">
             <img
-              class="h-200 object-contain relative top-1"
+              class="h-200 object-contain relative top-1 shadow-sm rounded-1"
               src="/assets/book.png"
               alt="Book Cover"
             />
             <div class="flex flex-col gap-1">
-              <h2>Alone on the wall</h2>
-              <p>by David Roberts</p>
-              <p class="max-w-200">
+              <h2 class="text-lg">Alone on the wall</h2>
+              <p class="text-md">by David Roberts</p>
+              <p class="flex gap-1 align-center text-sm color-gray-500 py-1">
+                <span class="cursor-default">
+                  <i class="fa-solid fa-star color-yellow-500"></i>
+                  <i class="fa-solid fa-star color-yellow-500"></i>
+                  <i class="fa-solid fa-star color-yellow-500"></i>
+                  <i class="fa-solid fa-star color-yellow-500"></i>
+                  <i class="fa-solid fa-star"></i>
+                </span>
+                <span>1,987,765</span>
+                <span>voters</span>
+              </p>
+              <p class="text-md leading-5">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Blanditiis assumenda obcaecati.
               </p>
             </div>
           </div>
-          <div class="flex gap-1 align-center">
+          <hr class="m-0 b-gray-50" />
+          <div class="flex gap-1 align-center text-sm">
             <img
               class="size-25 rounded-full"
               src="https://picsum.photos/id/64/100/100"
@@ -40,8 +60,9 @@
             <span class="bold">Kimberly Jones</span>
             <span>like this</span>
           </div>
+          <i class="fa-solid fa-ellipsis-vertical absolute top-right m-1"></i>
         </div>
-      </div>
+      </section>
     </main>
   </body>
 </html>
