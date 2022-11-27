@@ -1,0 +1,83 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+}
+
+/* Utility Classes */
+
+.flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 0.5rem;
+}
+
+.gap-2 {
+  gap: 1rem;
+}
+
+.w-400 {
+  width: 100%;
+  max-width: 400px;
+}
+
+.w-120 {
+  width: 120px;
+}
+
+.border-black {
+  border: 1px solid black;
+}
+
+.max-w-200 {
+  max-width: 200px;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.object-contain {
+  object-fit: contain;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.bg-gray {
+  background-color: hsl(200, 50%, 95%);
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+/* Semantic Classes */
+
+.book-card {
+  color: hsl(0 0% 30%);
+}
