@@ -10,10 +10,10 @@ body {
 
 .button {
   background: #439cb0;
-}
-
-.button:hover {
-  background: #246878;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 20px;
 }
 
 button {

@@ -1,0 +1,9 @@
+.cards {
+  height: 100px;
+}
+
+.card {
+  padding: 10px;
+  color: teal;
+  border: 2px solid teal;
+}
